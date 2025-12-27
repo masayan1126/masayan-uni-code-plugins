@@ -1,0 +1,8 @@
+{
+  "name": "claude-md-creator",
+  "version": "1.0.0",
+  "description": "Create optimal CLAUDE.md files - minimal (under 60 lines), WHY/WHAT/HOW structure",
+  "author": { "name": "masayan" },
+  "license": "MIT",
+  "keywords": ["docs", "claude-md", "documentation"]
+}

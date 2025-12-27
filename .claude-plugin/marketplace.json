@@ -1,0 +1,18 @@
+{
+  "name": "masayan-uni-plugins",
+  "version": "1.0.0",
+  "description": "Claude Code plugins for documentation and development workflows",
+  "owner": {
+    "name": "masayan"
+  },
+  "plugins": [
+    {
+      "name": "claude-md-creator",
+      "description": "Create optimal CLAUDE.md files - minimal (under 60 lines), WHY/WHAT/HOW structure",
+      "version": "1.0.0",
+      "author": { "name": "masayan" },
+      "source": "./plugins/claude-md-creator",
+      "category": "development"
+    }
+  ]
+}
