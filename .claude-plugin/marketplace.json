@@ -13,6 +13,14 @@
       "author": { "name": "masayan" },
       "source": "./plugins/claude-md-creator",
       "category": "development"
+    },
+    {
+      "name": "skill-scanner",
+      "description": "Scan and list registered Claude agent skills on Mac - read-only, safe operation",
+      "version": "1.0.0",
+      "author": { "name": "masayan" },
+      "source": "./plugins/skill-scanner",
+      "category": "development"
     }
   ]
 }
