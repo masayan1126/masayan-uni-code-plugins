@@ -29,6 +29,14 @@
       "author": { "name": "masayan" },
       "source": "./plugins/image-converter",
       "category": "development"
+    },
+    {
+      "name": "ocr",
+      "description": "Extract text from images using OCR and copy to clipboard",
+      "version": "1.0.0",
+      "author": { "name": "masayan" },
+      "source": "./plugins/ocr",
+      "category": "development"
     }
   ]
 }

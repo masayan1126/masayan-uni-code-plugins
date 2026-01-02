@@ -1,0 +1,8 @@
+{
+  "name": "ocr",
+  "version": "1.0.0",
+  "description": "Extract text from images using OCR and copy to clipboard",
+  "author": { "name": "masayan" },
+  "license": "MIT",
+  "keywords": ["ocr", "image", "text", "clipboard", "extraction"]
+}
