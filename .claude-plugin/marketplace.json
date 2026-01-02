@@ -69,6 +69,14 @@
       "author": { "name": "masayan" },
       "source": "./plugins/note-optimizer",
       "category": "development"
+    },
+    {
+      "name": "x-post-optimizer",
+      "description": "Optimize X posts for algorithm and engagement, generate quote reposts",
+      "version": "1.0.0",
+      "author": { "name": "masayan" },
+      "source": "./plugins/x-post-optimizer",
+      "category": "development"
     }
   ]
 }

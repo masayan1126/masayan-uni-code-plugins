@@ -1,0 +1,9 @@
+{
+  "name": "x-post-optimizer",
+  "version": "1.0.0",
+  "description": "Optimize X posts for algorithm and engagement, generate quote reposts",
+  "author": { "name": "masayan" },
+  "license": "MIT",
+  "keywords": ["x", "twitter", "social-media", "optimization", "engagement"],
+  "commands": "./commands/"
+}
