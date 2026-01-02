@@ -1,0 +1,6 @@
+{
+  "name": "tech-blog-writer",
+  "version": "1.0.0",
+  "description": "Create and optimize tech blog articles with SEO best practices",
+  "commands": "./commands/"
+}
