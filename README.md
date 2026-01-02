@@ -10,6 +10,7 @@ Claude Code plugins for documentation and development workflows.
 | [skill-scanner](./plugins/skill-scanner) | Scan and list registered Claude agent skills on Mac | 1.0.0 |
 | [image-converter](./plugins/image-converter) | Convert PNG/JPG/JPEG images to WebP, ICO, SVG formats | 1.0.0 |
 | [ocr](./plugins/ocr) | Extract text from images using OCR and copy to clipboard | 1.0.0 |
+| [gen-ai-image-prompt-creator](./plugins/gen-ai-image-prompt-creator) | Generate image prompts for characters, manga, thumbnails, diagrams, and SNS | 1.0.0 |
 
 ## Installation
 

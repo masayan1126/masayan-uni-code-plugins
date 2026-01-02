@@ -1,0 +1,8 @@
+{
+  "name": "gen-ai-image-prompt-creator",
+  "version": "1.0.0",
+  "description": "Generate image prompts for characters, manga, thumbnails, diagrams, and SNS images",
+  "author": { "name": "masayan" },
+  "license": "MIT",
+  "keywords": ["image", "prompt", "character", "manga", "thumbnail", "diagram", "sns"]
+}
