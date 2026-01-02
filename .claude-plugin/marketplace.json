@@ -61,6 +61,14 @@
       "author": { "name": "masayan" },
       "source": "./plugins/technyan-x-post-generator",
       "category": "development"
+    },
+    {
+      "name": "note-optimizer",
+      "description": "Optimize articles for note platform with proper formatting, titles, and mobile optimization",
+      "version": "1.0.0",
+      "author": { "name": "masayan" },
+      "source": "./plugins/note-optimizer",
+      "category": "development"
     }
   ]
 }

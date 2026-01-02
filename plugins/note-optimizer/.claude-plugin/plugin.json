@@ -1,0 +1,9 @@
+{
+  "name": "note-optimizer",
+  "version": "1.0.0",
+  "description": "Optimize articles for note platform with proper formatting, titles, and mobile optimization",
+  "author": { "name": "masayan" },
+  "license": "MIT",
+  "keywords": ["note", "article", "optimizer", "markdown", "japanese"],
+  "commands": "./commands/"
+}
