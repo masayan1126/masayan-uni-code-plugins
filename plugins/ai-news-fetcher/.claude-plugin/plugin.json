@@ -4,5 +4,12 @@
   "description": "Fetch AI news from the web and generate bilingual markdown articles",
   "author": { "name": "masayan" },
   "license": "MIT",
-  "keywords": ["ai", "news", "fetcher", "markdown", "bilingual"]
+  "keywords": ["ai", "news", "fetcher", "markdown", "bilingual"],
+  "commands": [
+    {
+      "name": "ai-news-fetcher",
+      "description": "Fetch AI news and generate bilingual markdown articles",
+      "skill": "skills/ai-news-fetcher"
+    }
+  ]
 }
