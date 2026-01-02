@@ -1,0 +1,6 @@
+{
+  "name": "youtube-metadata-creator",
+  "version": "1.0.0",
+  "description": "Generate YouTube video metadata (title, description, hashtags) for tech videos",
+  "commands": "./commands/"
+}

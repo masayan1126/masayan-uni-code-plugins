@@ -15,6 +15,7 @@ Claude Code plugins for documentation and development workflows.
 | [technyan-x-post-generator](./plugins/technyan-x-post-generator) | Generate X post drafts for Tech-nyan character | 1.0.0 |
 | [note-optimizer](./plugins/note-optimizer) | Optimize articles for note platform | 1.0.0 |
 | [x-post-optimizer](./plugins/x-post-optimizer) | Optimize X posts for algorithm and engagement | 1.0.0 |
+| [youtube-metadata-creator](./plugins/youtube-metadata-creator) | Generate YouTube video metadata for tech videos | 1.0.0 |
 
 ## Installation
 

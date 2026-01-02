@@ -77,6 +77,14 @@
       "author": { "name": "masayan" },
       "source": "./plugins/x-post-optimizer",
       "category": "development"
+    },
+    {
+      "name": "youtube-metadata-creator",
+      "description": "Generate YouTube video metadata (title, description, hashtags) for tech videos",
+      "version": "1.0.0",
+      "author": { "name": "masayan" },
+      "source": "./plugins/youtube-metadata-creator",
+      "category": "development"
     }
   ]
 }
