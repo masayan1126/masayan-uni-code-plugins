@@ -4,5 +4,12 @@
   "description": "Scan and list registered Claude agent skills on Mac - read-only, safe operation",
   "author": { "name": "masayan" },
   "license": "MIT",
-  "keywords": ["skills", "scanner", "agent", "list"]
+  "keywords": ["skills", "scanner", "agent", "list"],
+  "commands": [
+    {
+      "name": "scan-skills",
+      "description": "Scan and list registered Claude agent skills",
+      "skill": "skills/skill-scanner"
+    }
+  ]
 }

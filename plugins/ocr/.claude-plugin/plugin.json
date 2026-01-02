@@ -4,5 +4,12 @@
   "description": "Extract text from images using OCR and copy to clipboard",
   "author": { "name": "masayan" },
   "license": "MIT",
-  "keywords": ["ocr", "image", "text", "clipboard", "extraction"]
+  "keywords": ["ocr", "image", "text", "clipboard", "extraction"],
+  "commands": [
+    {
+      "name": "extract-text",
+      "description": "Extract text from images using OCR",
+      "skill": "skills/ocr"
+    }
+  ]
 }

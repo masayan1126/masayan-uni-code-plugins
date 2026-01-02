@@ -4,5 +4,37 @@
   "description": "Generate image prompts for characters, manga, thumbnails, diagrams, and SNS images",
   "author": { "name": "masayan" },
   "license": "MIT",
-  "keywords": ["image", "prompt", "character", "manga", "thumbnail", "diagram", "sns"]
+  "keywords": ["image", "prompt", "character", "manga", "thumbnail", "diagram", "sns"],
+  "commands": [
+    {
+      "name": "generate-character-prompt",
+      "description": "Generate character image prompts",
+      "skill": "skills/character"
+    },
+    {
+      "name": "generate-manga-prompt",
+      "description": "Generate engineer manga image prompts",
+      "skill": "skills/engineer-manga"
+    },
+    {
+      "name": "generate-pixta-metadata",
+      "description": "Generate PIXTA metadata for images",
+      "skill": "skills/pixta-metadata"
+    },
+    {
+      "name": "generate-sns-profile",
+      "description": "Generate SNS profile image prompts",
+      "skill": "skills/profile-sns"
+    },
+    {
+      "name": "generate-tech-diagram",
+      "description": "Generate technical diagram prompts",
+      "skill": "skills/tech-diagram"
+    },
+    {
+      "name": "generate-thumbnail",
+      "description": "Generate thumbnail image prompts",
+      "skill": "skills/thumbnail"
+    }
+  ]
 }

@@ -4,5 +4,12 @@
   "description": "Generate X post drafts for Tech-nyan character from articles in Japanese and English",
   "author": { "name": "masayan" },
   "license": "MIT",
-  "keywords": ["x", "twitter", "post", "sns", "generator", "technyan"]
+  "keywords": ["x", "twitter", "post", "sns", "generator", "technyan"],
+  "commands": [
+    {
+      "name": "generate-x-post",
+      "description": "Generate X post drafts for Tech-nyan character",
+      "skill": "skills/technyan-x-post-generator"
+    }
+  ]
 }

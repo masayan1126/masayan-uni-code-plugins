@@ -4,5 +4,12 @@
   "description": "Create optimal CLAUDE.md files - minimal (under 60 lines), WHY/WHAT/HOW structure",
   "author": { "name": "masayan" },
   "license": "MIT",
-  "keywords": ["docs", "claude-md", "documentation"]
+  "keywords": ["docs", "claude-md", "documentation"],
+  "commands": [
+    {
+      "name": "create-claude-md",
+      "description": "Create an optimal CLAUDE.md file with WHY/WHAT/HOW structure",
+      "skill": "skills/claude-md-creator"
+    }
+  ]
 }

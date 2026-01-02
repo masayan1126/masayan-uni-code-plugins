@@ -35,5 +35,27 @@
 plugins/プラグイン名/
 ├── .claude-plugin/
 │   └── plugin.json
-└── SKILL.md
+└── skills/
+    └── スキル名/
+        └── SKILL.md
 ```
+
+## スキルとコマンドのセット
+
+スキルを追加する際は、必ず `plugin.json` に対応するコマンドも追加すること：
+
+```json
+{
+  "commands": [
+    {
+      "name": "動詞-対象",
+      "description": "コマンドの説明",
+      "skill": "skills/スキル名"
+    }
+  ]
+}
+```
+
+**コマンド名のルール：**
+- 動詞で開始する（例: `create-`, `generate-`, `fetch-`, `scan-`, `convert-`, `extract-`）
+- ケバブケース（小文字とハイフン）を使用

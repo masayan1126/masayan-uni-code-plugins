@@ -4,5 +4,12 @@
   "description": "Convert PNG/JPG/JPEG images to WebP, ICO, SVG formats",
   "author": { "name": "masayan" },
   "license": "MIT",
-  "keywords": ["image", "converter", "webp", "ico", "svg", "png", "jpg"]
+  "keywords": ["image", "converter", "webp", "ico", "svg", "png", "jpg"],
+  "commands": [
+    {
+      "name": "convert-image",
+      "description": "Convert images to WebP, ICO, or SVG format",
+      "skill": "skills/image-converter"
+    }
+  ]
 }
