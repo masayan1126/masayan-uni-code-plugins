@@ -35,6 +35,8 @@
 plugins/プラグイン名/
 ├── .claude-plugin/
 │   └── plugin.json
+├── commands/
+│   └── 動詞-対象.md
 └── skills/
     └── スキル名/
         └── SKILL.md
@@ -42,18 +44,26 @@ plugins/プラグイン名/
 
 ## スキルとコマンドのセット
 
-スキルを追加する際は、必ず `plugin.json` に対応するコマンドも追加すること：
+スキルを追加する際は、必ず対応するコマンドファイルも作成すること。
+
+### 1. plugin.json に commands ディレクトリを指定
 
 ```json
 {
-  "commands": [
-    {
-      "name": "動詞-対象",
-      "description": "コマンドの説明",
-      "skill": "skills/スキル名"
-    }
-  ]
+  "commands": "./commands/"
 }
+```
+
+### 2. commands/ ディレクトリにコマンドファイルを作成
+
+ファイル名がスラッシュコマンド名になる（例: `fetch-ai-news.md` → `/fetch-ai-news`）
+
+```markdown
+---
+description: コマンドの説明
+---
+
+Execute the skill at `skills/スキル名` to ...
 ```
 
 **コマンド名のルール：**

@@ -5,11 +5,5 @@
   "author": { "name": "masayan" },
   "license": "MIT",
   "keywords": ["docs", "claude-md", "documentation"],
-  "commands": [
-    {
-      "name": "create-claude-md",
-      "description": "Create an optimal CLAUDE.md file with WHY/WHAT/HOW structure",
-      "skill": "skills/claude-md-creator"
-    }
-  ]
+  "commands": "./commands/"
 }
