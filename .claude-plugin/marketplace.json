@@ -21,6 +21,14 @@
       "author": { "name": "masayan" },
       "source": "./plugins/skill-scanner",
       "category": "development"
+    },
+    {
+      "name": "image-converter",
+      "description": "Convert PNG/JPG/JPEG images to WebP, ICO, SVG formats",
+      "version": "1.0.0",
+      "author": { "name": "masayan" },
+      "source": "./plugins/image-converter",
+      "category": "development"
     }
   ]
 }

@@ -8,6 +8,7 @@ Claude Code plugins for documentation and development workflows.
 |--------|-------------|---------|
 | [claude-md-creator](./plugins/claude-md-creator) | Create optimal CLAUDE.md files with WHY/WHAT/HOW structure | 1.0.0 |
 | [skill-scanner](./plugins/skill-scanner) | Scan and list registered Claude agent skills on Mac | 1.0.0 |
+| [image-converter](./plugins/image-converter) | Convert PNG/JPG/JPEG images to WebP, ICO, SVG formats | 1.0.0 |
 
 ## Installation
 
