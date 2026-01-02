@@ -1,0 +1,8 @@
+{
+  "name": "ai-news-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch AI news from the web and generate bilingual markdown articles",
+  "author": { "name": "masayan" },
+  "license": "MIT",
+  "keywords": ["ai", "news", "fetcher", "markdown", "bilingual"]
+}

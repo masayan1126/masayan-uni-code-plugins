@@ -11,6 +11,8 @@ Claude Code plugins for documentation and development workflows.
 | [image-converter](./plugins/image-converter) | Convert PNG/JPG/JPEG images to WebP, ICO, SVG formats | 1.0.0 |
 | [ocr](./plugins/ocr) | Extract text from images using OCR and copy to clipboard | 1.0.0 |
 | [gen-ai-image-prompt-creator](./plugins/gen-ai-image-prompt-creator) | Generate image prompts for characters, manga, thumbnails, diagrams, and SNS | 1.0.0 |
+| [ai-news-fetcher](./plugins/ai-news-fetcher) | Fetch AI news and generate bilingual markdown articles | 1.0.0 |
+| [technyan-x-post-generator](./plugins/technyan-x-post-generator) | Generate X post drafts for Tech-nyan character | 1.0.0 |
 
 ## Installation
 

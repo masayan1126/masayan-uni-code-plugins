@@ -1,0 +1,8 @@
+{
+  "name": "technyan-x-post-generator",
+  "version": "1.0.0",
+  "description": "Generate X post drafts for Tech-nyan character from articles in Japanese and English",
+  "author": { "name": "masayan" },
+  "license": "MIT",
+  "keywords": ["x", "twitter", "post", "sns", "generator", "technyan"]
+}

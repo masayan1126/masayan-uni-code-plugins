@@ -45,6 +45,22 @@
       "author": { "name": "masayan" },
       "source": "./plugins/gen-ai-image-prompt-creator",
       "category": "development"
+    },
+    {
+      "name": "ai-news-fetcher",
+      "description": "Fetch AI news from the web and generate bilingual markdown articles",
+      "version": "1.0.0",
+      "author": { "name": "masayan" },
+      "source": "./plugins/ai-news-fetcher",
+      "category": "development"
+    },
+    {
+      "name": "technyan-x-post-generator",
+      "description": "Generate X post drafts for Tech-nyan character from articles in Japanese and English",
+      "version": "1.0.0",
+      "author": { "name": "masayan" },
+      "source": "./plugins/technyan-x-post-generator",
+      "category": "development"
     }
   ]
 }
