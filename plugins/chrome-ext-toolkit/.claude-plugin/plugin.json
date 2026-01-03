@@ -1,0 +1,6 @@
+{
+  "name": "chrome-ext-toolkit",
+  "version": "1.0.0",
+  "description": "Chrome extension development and review response toolkit",
+  "commands": "./commands/"
+}
