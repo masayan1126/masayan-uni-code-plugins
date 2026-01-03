@@ -1,3 +1,8 @@
+---
+name: chrome-ext-review
+description: Chrome Web Storeのユーザーレビューへの返信を生成。ポジティブ・ネガティブ両方に対応。「レビュー返信」「レビュー対応」などで使用。
+---
+
 # Chrome Extension Review Response Skill
 
 Chrome Web Storeに掲載された拡張機能へのユーザーレビューに対応するスキルです。

@@ -1,9 +1,6 @@
 ---
-skillName: claude-md-creator
+name: claude-md-creator
 description: プロジェクトの内容をもとに、最適なCLAUDE.mdを作成する（60行以下、普遍的で常に適用されるべき内容を中心にWHY/WHAT/HOWのみ）
-version: 1.0.0
-author: masayan
-tags: [docs, claude-md, creation]
 ---
 
 # CLAUDE.md作成スキル

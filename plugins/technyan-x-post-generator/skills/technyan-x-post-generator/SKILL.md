@@ -1,3 +1,8 @@
+---
+name: technyan-x-post-generator
+description: 記事からテクにゃん.のXアカウント用ポスト投稿案を生成。日英両方の投稿案を3パターンずつ生成。
+---
+
 # X Post Generator Skill
 
 記事のパスを指定して、テクにゃん.のXアカウント用のポスト投稿案を生成するスキル。
