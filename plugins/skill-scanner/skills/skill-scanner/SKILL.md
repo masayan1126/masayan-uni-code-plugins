@@ -15,11 +15,15 @@ description: Macで登録済みClaude agent skillsをスキャンし一覧表示
 # 基本スキャン（ユーザーレベルのみ）
 python3 scripts/scan_skills.py
 
-# ~/git以下のプロジェクトもスキャン（要ユーザー確認）
-python3 scripts/scan_skills.py --git-projects
+# 指定ディレクトリ以下のプロジェクトをスキャン（要ユーザー確認）
+python3 scripts/scan_skills.py --projects-dir ~/git
+python3 scripts/scan_skills.py --projects-dir ~/work
+
+# 複数ディレクトリを同時にスキャン
+python3 scripts/scan_skills.py --projects-dir ~/git --projects-dir ~/work
 
 # JSON形式で出力
 python3 scripts/scan_skills.py --json
 ```
 
-**重要**: `~/git`以下をスキャンする際は必ずユーザーに確認してから実行。
+**重要**: プロジェクトディレクトリをスキャンする際は必ずユーザーに確認してから実行。

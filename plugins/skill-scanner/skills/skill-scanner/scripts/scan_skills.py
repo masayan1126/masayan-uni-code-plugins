@@ -15,7 +15,6 @@ from typing import Optional
 
 # Default skill locations on Mac
 USER_SKILLS_DIR = Path.home() / ".claude" / "skills"
-GIT_PROJECTS_DIR = Path.home() / "git"
 
 
 def parse_frontmatter(skill_md_path: Path) -> Optional[dict]:
@@ -143,7 +142,7 @@ def find_project_skills(git_dir: Path, max_depth: int = 3) -> dict[str, list[dic
     return results
 
 
-def scan_all_locations(include_git_projects: bool = False, custom_paths: list[str] = None) -> dict[str, list[dict]]:
+def scan_all_locations(projects_dirs: list[str] = None, custom_paths: list[str] = None) -> dict[str, list[dict]]:
     """Scan all locations for skills (read-only operation)."""
     results = {}
 
@@ -158,10 +157,12 @@ def scan_all_locations(include_git_projects: bool = False, custom_paths: list[st
         user_skills = find_skills(USER_SKILLS_DIR)
         results[str(USER_SKILLS_DIR)] = user_skills
 
-        # Optionally scan ~/git projects
-        if include_git_projects:
-            project_results = find_project_skills(GIT_PROJECTS_DIR)
-            results.update(project_results)
+        # Optionally scan specified project directories
+        if projects_dirs:
+            for proj_dir in projects_dirs:
+                proj_path = Path(proj_dir).expanduser()
+                project_results = find_project_skills(proj_path)
+                results.update(project_results)
 
     return results
 
@@ -211,7 +212,7 @@ def main():
     parser.add_argument(
         "paths",
         nargs="*",
-        help="Custom paths to scan"
+        help="Custom paths to scan (direct skill directories)"
     )
     parser.add_argument(
         "--json",
@@ -219,9 +220,10 @@ def main():
         help="Output in JSON format"
     )
     parser.add_argument(
-        "--git-projects",
-        action="store_true",
-        help="Also scan ~/git/*/.claude/skills for project-level skills"
+        "--projects-dir",
+        action="append",
+        metavar="DIR",
+        help="Scan projects in specified directory for .claude/skills (can be used multiple times)"
     )
 
     args = parser.parse_args()
@@ -229,7 +231,7 @@ def main():
     custom_paths = args.paths if args.paths else None
 
     results = scan_all_locations(
-        include_git_projects=args.git_projects,
+        projects_dirs=args.projects_dir,
         custom_paths=custom_paths
     )
     output = format_output(results, "json" if args.json else "text")
