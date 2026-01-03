@@ -1,0 +1,9 @@
+{
+  "name": "bgm-creator",
+  "version": "1.0.0",
+  "description": "Generate Suno BGM prompts and upload videos to YouTube",
+  "author": { "name": "masayan" },
+  "license": "MIT",
+  "keywords": ["bgm", "suno", "youtube", "music", "prompt", "upload"],
+  "commands": "./commands/"
+}
