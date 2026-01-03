@@ -20,6 +20,15 @@ Claude Code plugins for documentation and development workflows.
 | [chrome-ext-toolkit](./plugins/chrome-ext-toolkit) | Chrome extension development and review response | 1.0.0 |
 | [bgm-creator](./plugins/bgm-creator) | Generate Suno BGM prompts and upload to YouTube | 1.0.0 |
 
+## Unplugged Skills (Project-Specific)
+
+以下のスキルは特定プロジェクトに強く依存するため、プラグイン化していません。
+
+| Project | Skill | Description |
+|---------|-------|-------------|
+| masayan-tech-blog | tech-blog-frontend-optimizer | テックブログのフロントエンド改善（PV・滞在時間向上、SEO最適化） |
+| claude-code-forest | Blog Publisher Skill | ブログ記事作成とNILTO CMSへの自動入稿 |
+
 ## Installation
 
 ### Adding this Marketplace
