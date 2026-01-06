@@ -2,7 +2,7 @@
 description: Create SEO-optimized tech blog draft from notes or memos
 ---
 
-Execute the skill at `skills/seo-draft-creator` to create an SEO-optimized tech blog draft directly from rough notes or memos.
+Execute the skill at `~/.claude/plugins/tech-blog-writer/skills/seo-draft-creator` to create an SEO-optimized tech blog draft directly from rough notes or memos.
 
 This skill:
 - Formats rough notes into a well-structured article

@@ -2,7 +2,7 @@
 description: Develop Chrome extension from scratch to store submission
 ---
 
-Execute the skill at `skills/develop` to develop a Chrome extension.
+Execute the skill at `~/.claude/plugins/chrome-ext-toolkit/skills/develop` to develop a Chrome extension.
 
 This skill supports:
 - New Chrome extension development
