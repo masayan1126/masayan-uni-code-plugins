@@ -109,6 +109,14 @@
       "author": { "name": "masayan" },
       "source": "./plugins/bgm-creator",
       "category": "development"
+    },
+    {
+      "name": "slidev-creator",
+      "description": "Create distinctive, high-quality Slidev presentations with bold aesthetic direction",
+      "version": "1.0.0",
+      "author": { "name": "masayan" },
+      "source": "./plugins/slidev-creator",
+      "category": "development"
     }
   ]
 }

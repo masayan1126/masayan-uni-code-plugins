@@ -19,6 +19,7 @@ Claude Code plugins for documentation and development workflows.
 | [tech-blog-writer](./plugins/tech-blog-writer) | Create and optimize tech blog articles with SEO | 1.0.0 |
 | [chrome-ext-toolkit](./plugins/chrome-ext-toolkit) | Chrome extension development and review response | 1.0.0 |
 | [bgm-creator](./plugins/bgm-creator) | Generate Suno BGM prompts and upload to YouTube | 1.0.0 |
+| [slidev-creator](./plugins/slidev-creator) | Create distinctive Slidev presentations with bold design | 1.0.0 |
 
 ## Unplugged Skills (Project-Specific)
 

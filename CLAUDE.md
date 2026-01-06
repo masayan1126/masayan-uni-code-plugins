@@ -19,13 +19,22 @@
 }
 ```
 
-### 2. `README.md`（ルート）
+### 2. `README.md` と `README_ja.md`（ルート）
 
-「Available Plugins」テーブルに新しいプラグインの行を追加：
+両方のREADMEファイルを必ず更新すること：
+
+- **README.md（英語版）**: 「Available Plugins」テーブルに追加
+- **README_ja.md（日本語版）**: 「利用可能なプラグイン」テーブルに追加
 
 ```markdown
-| [プラグイン名](./plugins/プラグイン名) | 説明 | バージョン |
+<!-- README.md -->
+| [プラグイン名](./plugins/プラグイン名) | Description in English | バージョン |
+
+<!-- README_ja.md -->
+| [プラグイン名](./plugins/プラグイン名) | 日本語の説明 | バージョン |
 ```
+
+**重要**: README.mdを修正する場合は、必ずREADME_ja.mdも同時に修正すること。
 
 ## プラグインの構造
 

@@ -19,6 +19,7 @@
 | [tech-blog-writer](./plugins/tech-blog-writer) | SEO対策済みテックブログ記事の作成・最適化 | 1.0.0 |
 | [chrome-ext-toolkit](./plugins/chrome-ext-toolkit) | Chrome拡張機能の開発とレビュー対応 | 1.0.0 |
 | [bgm-creator](./plugins/bgm-creator) | Suno BGMプロンプト生成とYouTubeアップロード | 1.0.0 |
+| [slidev-creator](./plugins/slidev-creator) | 大胆なデザインで独自性のあるSlidevプレゼンテーションを作成 | 1.0.0 |
 
 ## 未プラグイン化スキル（プロジェクト固有）
 

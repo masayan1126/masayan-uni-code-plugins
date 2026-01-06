@@ -1,0 +1,9 @@
+{
+  "name": "slidev-creator",
+  "version": "1.0.0",
+  "description": "Create distinctive, high-quality Slidev presentations with bold aesthetic direction",
+  "author": { "name": "masayan" },
+  "license": "MIT",
+  "keywords": ["slidev", "presentation", "slide", "markdown", "design"],
+  "commands": "./commands/"
+}
