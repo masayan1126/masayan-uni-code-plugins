@@ -1,0 +1,10 @@
+{
+  "name": "insight-extractor",
+  "version": "1.0.0",
+  "description": "URLまたは文章から価値のあるインサイト（体験談・ベストプラクティス・専門知識）を抽出するプラグイン",
+  "author": {
+    "name": "masayan"
+  },
+  "skills": "./skills/",
+  "commands": "./commands/"
+}
