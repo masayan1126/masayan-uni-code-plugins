@@ -143,11 +143,12 @@ layout: two-cols
 ### 避けるべきもの
 
 - 単色の白・グレー背景のみ
-- 紫グラデーション（AI生成の典型）
+- **グラデーション全般（絶対禁止）** - AI生成の典型的なデザインであり、安っぽく見える
+  - linear-gradient, radial-gradient など全て禁止
+  - 紫グラデーションは特に避ける
 
 ### 推奨エフェクト
 
-- グラデーションメッシュ
 - ノイズテクスチャ
 - 幾何学パターン
 - レイヤード透過
@@ -165,7 +166,8 @@ class: 'text-center'
 
 ```md
 ---
-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%)
+background: '#0A0A0A'
+class: 'bg-[url("/noise.png")] bg-repeat'
 ---
 ```
 
