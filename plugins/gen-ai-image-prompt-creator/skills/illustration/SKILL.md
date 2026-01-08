@@ -20,9 +20,11 @@ description: Generates high-quality image prompts for AI image generators (Midjo
 4. **情報構造化**: 6つの原則に基づいて収集した情報を整理
 5. **プロンプト生成**: PROMPT_TEMPLATE.md 使用して実行可能なプロンプトを生成
 6. **クリップボードコピー**: `AskUserQuestion` で選択肢提示後、`pbcopy`（Mac）でコピー
-7. **成果物保存**:
-   - プロンプト: `outputs/illustration/{タイトル}.md`
-   - 生成画像: `outputs/illustration/images/{タイトル}.png`
+7. **アイデア確認**: `progress/ideas.md` をチェックし、該当するアイデアがあれば提案
+8. **成果物保存**:
+   - プロンプト: `output/illustration/{タイトル}.md`（ディレクトリがなければ作成）
+   - 生成画像: `output/illustration/images/{タイトル}.png`
+9. **進捗更新**: `progress/ideas.md` を更新（完了したアイデアにチェック）
 
 ## 6つの原則
 

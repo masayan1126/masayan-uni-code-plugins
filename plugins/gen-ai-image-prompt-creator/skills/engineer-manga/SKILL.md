@@ -1,11 +1,11 @@
 ---
 name: creating-engineer-manga
-description: Generates Nano Banana Pro prompts for 4-panel engineer humor comics. Use when user mentions "漫画作成", "エンジニア漫画", "4コマ", or "あるある". Requires character image attachment when using generated prompts.
+description: Generates Nano Banana Pro prompts for 4-panel engineer humor comics. Use when user mentions "漫画作成", "エンジニア漫画", "4コマ", or "あるある".
 ---
 
 # エンジニアあるある漫画作成
 
-> **重要**: 生成したプロンプトを画像AIに入力する際は、キャラクターの元画像を添付すること。
+> **注**: 生成したプロンプトを画像生成AIに入力する際は、キャラクターの元画像を一緒に添付してください。
 
 ## ワークフロー
 
@@ -34,10 +34,10 @@ description: Generates Nano Banana Pro prompts for 4-panel engineer humor comics
 - 手書き風テイスト
 - エンジニアに共感されるユーモア
 
-## 長編制作時の注意
+## 長編制作時の注意（画像生成AI使用時）
 
 複数ページの漫画を制作する場合：
 
 - **1ページずつ生成**: 一度に多くのページを生成しない（一貫性が崩壊しやすい）
-- **参照画像の再添付**: 各生成ごとにキャラクター設定画を必ず再添付
+- **キャラ画像の再添付**: 画像生成AIへの入力ごとにキャラクター設定画を再添付
 - **品質の細かな確認**: 小さな単位で生成し、各ページの品質を高く保つ

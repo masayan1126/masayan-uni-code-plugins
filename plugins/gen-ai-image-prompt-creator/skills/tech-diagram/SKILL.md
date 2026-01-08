@@ -1,11 +1,11 @@
 ---
 name: creating-tech-diagrams
-description: Generates Nano Banana Pro prompts for technical explanation infographics. Use when user mentions "図解作成", "テック図解", or "AI解説図". Requires character image attachment for narrator placement.
+description: Generates Nano Banana Pro prompts for technical explanation infographics. Use when user mentions "図解作成", "テック図解", or "AI解説図".
 ---
 
 # テック・AI解説用図解作成
 
-> **重要**: 生成したプロンプトを画像AIに入力する際は、キャラクターの元画像を添付すること（解説役として配置）。
+> **注**: 生成したプロンプトを画像生成AIに入力する際は、キャラクターの元画像を一緒に添付してください（解説役として配置）。
 
 ## ワークフロー
 
