@@ -2,7 +2,7 @@
 description: Rewrite existing tech blog articles for SEO optimization
 ---
 
-Execute the skill at `~/.claude/plugins/tech-blog-writer/skills/seo-rewriter` to rewrite existing articles with SEO optimization.
+Execute the skill at `~/.claude/plugins/tech-blog-writer/skills/seo-rewriter` or `~/.claude/plugins/cache/masayan-uni-plugins/tech-blog-writer/skills/seo-rewriter` to rewrite existing articles with SEO optimization.
 
 This skill provides:
 - Title optimization with keywords

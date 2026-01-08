@@ -2,7 +2,7 @@
 description: Generate YouTube metadata for tech tutorial/explanation videos
 ---
 
-Execute the skill at `~/.claude/plugins/youtube-metadata-creator/skills/tech-video-metadata` to generate SEO-optimized YouTube metadata for technical explanation videos (まじめにテック series).
+Execute the skill at `~/.claude/plugins/youtube-metadata-creator/skills/tech-video-metadata` or `~/.claude/plugins/cache/masayan-uni-plugins/youtube-metadata-creator/skills/tech-video-metadata` to generate SEO-optimized YouTube metadata for technical explanation videos (まじめにテック series).
 
 This skill generates:
 - 3 title variations with different strategies

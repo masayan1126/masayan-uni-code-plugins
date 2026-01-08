@@ -2,7 +2,7 @@
 description: Generate YouTube metadata for weekly tech news videos
 ---
 
-Execute the skill at `~/.claude/plugins/youtube-metadata-creator/skills/weekly-news-metadata` to generate SEO-optimized YouTube metadata for weekly tech news digest videos.
+Execute the skill at `~/.claude/plugins/youtube-metadata-creator/skills/weekly-news-metadata` or `~/.claude/plugins/cache/masayan-uni-plugins/youtube-metadata-creator/skills/weekly-news-metadata` to generate SEO-optimized YouTube metadata for weekly tech news digest videos.
 
 This skill generates:
 - 3 title patterns (time-saving, comprehensive, topic-focused)
