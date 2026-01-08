@@ -9,7 +9,7 @@ description: Generates Nano Banana Pro prompts for 4-panel engineer humor comics
 
 ## ワークフロー
 
-1. **テーマ確認**: progress/manga-ideas.md のネタストックから選択 or 新規入力
+1. **アイデア確認**: `progress/ideas.md` をチェックし、漫画関連のアイデアがあれば提案（または新規入力）
 2. **パターン選択**（対話形式で確認）:
    - 日常系4コマ（デフォルト）: 起承転結、ほのぼの
    - バトル系縦スクロール: 4-6コマ、ダイナミック
@@ -17,9 +17,9 @@ description: Generates Nano Banana Pro prompts for 4-panel engineer humor comics
 3. **プロンプト生成**: PROMPT_TEMPLATE.md 使用
 4. **Xポスト文面生成**: ハッシュタグ付き
 5. **成果物保存**:
-   - プロンプト: `outputs/engineer-manga/{タイトル}.md`
-   - 生成画像: `outputs/engineer-manga/images/{タイトル}.png`
-6. **進捗更新**: manga-ideas.md を更新
+   - プロンプト: `output/engineer-manga/{タイトル}.md`（ディレクトリがなければ作成）
+   - 生成画像: `output/engineer-manga/images/{タイトル}.png`
+6. **進捗更新**: `progress/ideas.md` を更新（完了したアイデアにチェック）
 
 ## 参照ファイル
 

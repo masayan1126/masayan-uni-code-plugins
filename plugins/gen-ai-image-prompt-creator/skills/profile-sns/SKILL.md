@@ -17,11 +17,12 @@ description: Generates Nano Banana Pro prompts for profile icons and SNS images.
    - 3D風
    - 手書き風
 3. **要素ヒアリング**: モチーフ、カラー、雰囲気
-4. **プロンプト生成**: PROMPT_TEMPLATE.md 使用
-5. **成果物保存**:
-   - プロンプト: `outputs/profile-sns/{タイトル}.md`
-   - 生成画像: `outputs/profile-sns/images/{タイトル}.png`
-6. **進捗更新**: profile-requests.md
+4. **アイデア確認**: `progress/ideas.md` をチェックし、該当するアイデアがあれば提案
+5. **プロンプト生成**: PROMPT_TEMPLATE.md 使用
+6. **成果物保存**:
+   - プロンプト: `output/profile-sns/{タイトル}.md`（ディレクトリがなければ作成）
+   - 生成画像: `output/profile-sns/images/{タイトル}.png`
+7. **進捗更新**: `progress/ideas.md` を更新（完了したアイデアにチェック）
 
 ## 参照ファイル
 
