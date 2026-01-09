@@ -125,6 +125,14 @@
       "author": { "name": "masayan" },
       "source": "./plugins/insight-extractor",
       "category": "development"
+    },
+    {
+      "name": "project-planner",
+      "description": "Plan and design various project types: Web services, API services, Chrome extensions, Electron apps, VSCode extensions",
+      "version": "1.0.0",
+      "author": { "name": "masayan" },
+      "source": "./plugins/project-planner",
+      "category": "development"
     }
   ]
 }

@@ -21,6 +21,7 @@
 | [bgm-creator](./plugins/bgm-creator) | Suno BGMプロンプト生成とYouTubeアップロード | 1.0.0 |
 | [slidev-creator](./plugins/slidev-creator) | 大胆なデザインで独自性のあるSlidevプレゼンテーションを作成 | 1.0.0 |
 | [insight-extractor](./plugins/insight-extractor) | URLや文章から価値のあるインサイト（体験談・ベストプラクティス）を抽出 | 1.0.0 |
+| [project-planner](./plugins/project-planner) | Webサービス、API、Chrome/VSCode拡張機能、Electronアプリの企画・設計 | 1.0.0 |
 
 ## 未プラグイン化スキル（プロジェクト固有）
 
