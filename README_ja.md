@@ -22,6 +22,7 @@
 | [slidev-creator](./plugins/slidev-creator) | 大胆なデザインで独自性のあるSlidevプレゼンテーションを作成 | 1.0.0 |
 | [insight-extractor](./plugins/insight-extractor) | URLや文章から価値のあるインサイト（体験談・ベストプラクティス）を抽出 | 1.0.0 |
 | [project-planner](./plugins/project-planner) | Webサービス、API、Chrome/VSCode拡張機能、Electronアプリの企画・設計 | 1.0.0 |
+| [bash-script-generator](./plugins/bash-script-generator) | ベストプラクティスに従った堅牢なBashスクリプトを生成 | 1.0.0 |
 
 ## 未プラグイン化スキル（プロジェクト固有）
 

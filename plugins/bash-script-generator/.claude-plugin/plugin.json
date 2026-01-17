@@ -1,0 +1,9 @@
+{
+  "name": "bash-script-generator",
+  "version": "1.0.0",
+  "description": "Generate robust bash scripts following best practices - with proper error handling, argument parsing, and cleanup",
+  "author": { "name": "masayan" },
+  "license": "MIT",
+  "keywords": ["bash", "shell", "script", "generator", "automation"],
+  "commands": "./commands/"
+}

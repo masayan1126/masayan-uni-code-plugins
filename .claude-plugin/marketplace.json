@@ -133,6 +133,14 @@
       "author": { "name": "masayan" },
       "source": "./plugins/project-planner",
       "category": "development"
+    },
+    {
+      "name": "bash-script-generator",
+      "description": "Generate robust bash scripts with proper error handling, argument parsing, and cleanup",
+      "version": "1.0.0",
+      "author": { "name": "masayan" },
+      "source": "./plugins/bash-script-generator",
+      "category": "development"
     }
   ]
 }

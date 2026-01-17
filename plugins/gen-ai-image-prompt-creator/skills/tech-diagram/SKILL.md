@@ -21,12 +21,14 @@ description: Generates Nano Banana Pro prompts for technical explanation infogra
    - アーキテクチャ図型: システム構成
    - タイムライン型: 歴史・進化
 5. **構成要素設計**: 3-5個のメイン要素に絞る
-6. **プロンプト生成**: PROMPT_TEMPLATE.md 使用（選択したテイストを反映）
-7. **Xポスト文面生成**
-8. **成果物保存**:
+6. **AIっぽさ緩和オプション確認**: [ANTI_AI_STYLE.md](../ANTI_AI_STYLE.md) 参照
+   - 図解系は「ベタ塗り」のみ推奨
+7. **プロンプト生成**: PROMPT_TEMPLATE.md 使用（選択したテイストを反映）
+8. **Xポスト文面生成**
+9. **成果物保存**:
    - プロンプト: `output/tech-diagram/{タイトル}.md`（ディレクトリがなければ作成）
    - 生成画像: `output/tech-diagram/images/{タイトル}.png`
-9. **進捗更新**: `progress/ideas.md` を更新（完了したアイデアにチェック）
+10. **進捗更新**: `progress/ideas.md` を更新（完了したアイデアにチェック）
 
 ## 参照ファイル
 

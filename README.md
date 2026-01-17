@@ -22,6 +22,7 @@ Claude Code plugins for documentation and development workflows.
 | [slidev-creator](./plugins/slidev-creator) | Create distinctive Slidev presentations with bold design | 1.0.0 |
 | [insight-extractor](./plugins/insight-extractor) | Extract valuable insights (experiences, best practices) from URLs or text | 1.0.0 |
 | [project-planner](./plugins/project-planner) | Plan and design Web services, APIs, Chrome/VSCode extensions, Electron apps | 1.0.0 |
+| [bash-script-generator](./plugins/bash-script-generator) | Generate robust bash scripts with error handling and best practices | 1.0.0 |
 
 ## Unplugged Skills (Project-Specific)
 

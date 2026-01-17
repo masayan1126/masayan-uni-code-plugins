@@ -20,11 +20,13 @@ description: Generates Nano Banana Pro prompts for blog and YouTube thumbnail im
 5. **キャラクター確認**（人物・キャラ型の場合）:
    - 既存キャラクター使用 → プロンプトに「画像生成AI使用時にベース画像添付」の注記を含める
    - 新規キャラクター → キャラクター詳細をプロンプトに記載
-6. **プロンプト生成**: PROMPT_TEMPLATE.md 使用
-7. **成果物保存**:
+6. **AIっぽさ緩和オプション確認**: [ANTI_AI_STYLE.md](../ANTI_AI_STYLE.md) 参照
+   - 「ベタ塗り」「デフォルメされたフォルム」を含めるか確認
+7. **プロンプト生成**: PROMPT_TEMPLATE.md 使用
+8. **成果物保存**:
    - プロンプト: `output/thumbnail/{タイトル}.md`（ディレクトリがなければ作成）
    - 生成画像: `output/thumbnail/images/{タイトル}.png`
-8. **進捗更新**: `progress/ideas.md` を更新（完了したアイデアにチェック）
+9. **進捗更新**: `progress/ideas.md` を更新（完了したアイデアにチェック）
 
 ## 参照ファイル
 
