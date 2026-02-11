@@ -149,7 +149,52 @@ React Hooksの基礎から実践まで徹底解説。useState、useEffect、カ�
 #Python #文字化け #エンコーディング #UTF8 #プログラミング #Python初心者 #開発Tips #トラブルシューティング #エンジニア #技術ブログ
 ```
 
-## 6. 構造化データ（オプション）
+## 6. スラッグ候補の生成
+
+### 基本ルール
+
+- **数**: 5つ提案する
+- **形式**: 英数字とハイフンのみ（小文字）
+- **長さ**: 3-5単語程度（短く簡潔に）
+- **キーワード**: ターゲットキーワードの英語表現を含める
+
+### ガイドライン
+
+- 記事の主題を端的に表す英単語を使用する
+- 日本語のローマ字表記は避け、英語の意味を使う
+- 不要な前置詞・冠詞は省略する
+- 年号は必要な場合のみ含める
+- 検索エンジンが内容を理解しやすい単語を選ぶ
+
+### 例（React Hooks記事）
+
+```
+1. react-hooks-guide-usestate-useeffect
+2. react-hooks-practical-examples
+3. react-hooks-beginners-guide
+4. usestate-useeffect-tutorial
+5. react-functional-component-hooks
+```
+
+### 例（Python文字化け記事）
+
+```
+1. python-encoding-fix-utf8
+2. python-character-encoding-guide
+3. python-mojibake-solutions
+4. python-utf8-cp932-encoding
+5. fix-python-encoding-errors
+```
+
+### チェックポイント
+
+- [ ] 英小文字・数字・ハイフンのみか
+- [ ] 3-5単語程度の長さか
+- [ ] 記事の主題が伝わるか
+- [ ] ターゲットキーワードが含まれているか
+- [ ] 5つの候補がそれぞれ異なる切り口か
+
+## 7. 構造化データ（オプション）
 
 ### Article スキーマ
 
@@ -184,3 +229,4 @@ React Hooksの基礎から実践まで徹底解説。useState、useEffect、カ�
 - [ ] 共起語が本文に含まれている
 - [ ] 適切なカテゴリ・タグが設定されている
 - [ ] ハッシュタグが10-15個生成されている
+- [ ] スラッグ候補が5つ提案されている
