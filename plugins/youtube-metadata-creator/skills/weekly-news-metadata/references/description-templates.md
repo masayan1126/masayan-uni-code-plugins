@@ -33,16 +33,15 @@
 2025年10月21日（月）〜 10月27日（日）
 
 📱 SNS
-・ブログ: https://masayablog.com
-・Twitter: @masayan_software_dev
+・ブログ: {YOUR_BLOG_URL}
+・Twitter: {YOUR_TWITTER_HANDLE}
 
 #テックニュース #AIニュース #週刊ダイジェスト #エンジニア #プログラミング #ChatGPT #Claude #Gemini #OpenAI #Google #GitHub #MCP #AI開発 #LLM #生成AI
 
 ---
 
-👨‍💻 Masayan | Web Developer
-大阪を拠点にフルスタック開発を行うエンジニア。
-AI・MCP開発、生産性向上に関する情報を週刊で発信中。
+👨‍💻 {YOUR_NAME} | {YOUR_TITLE}
+{YOUR_PROFILE_DESCRIPTION}
 
 🔔 チャンネル登録して、最新テックニュースを見逃さないようにしよう!
 ```
@@ -73,8 +72,8 @@ AI・MCP開発、生産性向上に関する情報を週刊で発信中。
 📅 2025/10/21-27
 
 📱 SNS
-・ブログ: https://masayablog.com
-・Twitter: @masayan_software_dev
+・ブログ: {YOUR_BLOG_URL}
+・Twitter: {YOUR_TWITTER_HANDLE}
 
 #テックニュース #AIニュース #エンジニア #週刊ダイジェスト
 

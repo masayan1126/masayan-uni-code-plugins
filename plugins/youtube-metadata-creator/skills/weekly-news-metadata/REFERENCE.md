@@ -82,8 +82,8 @@
 [ニュースの対象週]
 
 📱 SNS
-・ブログ: https://masayablog.com
-・Twitter: @masayan_software_dev
+・ブログ: {YOUR_BLOG_URL}
+・Twitter: {YOUR_TWITTER_HANDLE}
 
 #[ハッシュタグ]
 
@@ -169,11 +169,10 @@
 ## 📱 プロフィール情報
 
 ```
-👨‍💻 Masayan | Web Developer
-大阪を拠点にフルスタック開発を行うシニアエンジニア。
-AI・MCP開発、生産性向上に関する情報を週刊で発信中。
+👨‍💻 {YOUR_NAME} | {YOUR_TITLE}
+{YOUR_PROFILE_DESCRIPTION}
 ```
 
 **SNS:**
-- ブログ: https://masayablog.com
-- Twitter: @masayan_software_dev
+- ブログ: {YOUR_BLOG_URL}
+- Twitter: {YOUR_TWITTER_HANDLE}

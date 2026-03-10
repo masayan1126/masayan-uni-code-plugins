@@ -20,6 +20,20 @@ description: 週刊テックニュース動画のYouTubeメタデータ（タイ
 
 ## ワークフロー
 
+### フェーズ0: プロフィール情報の確認（初回のみ）
+
+スキル初回実行時に、概要欄で使用するプロフィール情報をユーザーに確認する。
+
+```
+概要欄にプロフィール情報を記載します。以下を教えてください：
+- チャンネル名 / 表示名（例: Taro | Web Developer）
+- 自己紹介文（1行程度）
+- ブログURL（任意）
+- Twitter/Xのハンドル（任意）
+```
+
+確認した情報で、テンプレート内の `{YOUR_NAME}`, `{YOUR_TITLE}`, `{YOUR_PROFILE_DESCRIPTION}`, `{YOUR_BLOG_URL}`, `{YOUR_TWITTER_HANDLE}` を置換して使用する。
+
 ### フェーズ1: 情報収集
 
 1. **対象週を確認**
@@ -105,8 +119,8 @@ description: 週刊テックニュース動画のYouTubeメタデータ（タイ
 ...
 
 📱 SNS
-・ブログ: https://masayablog.com
-・Twitter: @masayan_software_dev
+・ブログ: {YOUR_BLOG_URL}
+・Twitter: {YOUR_TWITTER_HANDLE}
 
 #[ハッシュタグ]
 

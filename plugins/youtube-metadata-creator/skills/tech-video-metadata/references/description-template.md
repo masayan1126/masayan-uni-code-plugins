@@ -70,14 +70,14 @@ YouTube動画の概要欄は以下の順序で構成します:
 ### 固定フォーマット
 
 ```
-👨🏻‍💻 masayan.dev1126
-大阪でシニアエンジニアしています。
+👨🏻‍💻 {YOUR_CHANNEL_NAME}
+{YOUR_PROFILE_DESCRIPTION}
 
 🌏 SNS
-X.com: x.com/masayanishigaki?s=21&t=2LPYmlHxHYyad2B5DY1j9Q
+X.com: {YOUR_X_PROFILE_URL}
 
 📓 技術ブログ
-https://maasaablog.com/
+{YOUR_BLOG_URL}
 ```
 
 ## 5. ハッシュタグ(オプション)
@@ -116,14 +116,14 @@ ChatGPT・Claude・Geminiを使いこなすための必須テクニックを
 31:30 実践例: ChatGPTでのデモ
 35:00 まとめと次のステップ
 
-👨🏻‍💻 masayan.dev1126
-大阪でシニアエンジニアしています。
+👨🏻‍💻 {YOUR_CHANNEL_NAME}
+{YOUR_PROFILE_DESCRIPTION}
 
 🌏 SNS
-X.com: x.com/masayanishigaki?s=21&t=2LPYmlHxHYyad2B5DY1j9Q
+X.com: {YOUR_X_PROFILE_URL}
 
 📓 技術ブログ
-https://maasaablog.com/
+{YOUR_BLOG_URL}
 
 #プロンプトエンジニアリング #ChatGPT #AI活用 #生産性向上
 ```

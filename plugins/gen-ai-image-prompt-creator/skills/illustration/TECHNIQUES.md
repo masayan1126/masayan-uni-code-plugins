@@ -1,7 +1,7 @@
 # 画像生成AIプロンプトテクニック詳細
 
 参考元: [実例付き]必ず押さえておきたい画像生成AIプロンプトテクニック6選
-https://maasaablog.com/blog/qre8slp1v/
+{REFERENCE_URL}
 
 ## テクニック1: 優先順位
 
