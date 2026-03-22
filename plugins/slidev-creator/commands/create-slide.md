@@ -9,6 +9,8 @@ This skill:
 - Chooses a bold, distinctive aesthetic direction
 - Generates Slidev markdown with custom styling
 - Applies typography, color, and motion design principles
-- Outputs a production-ready slides.md file
+- Outputs a production-ready slides.md file inside a project directory (projects/<project-name>/slides.md)
+- Controls information density per slide — splits when content is too dense
+- Ensures proper layout balance without content overflow
 
 Usage: Provide your presentation topic, target audience, and any specific requirements.
