@@ -323,7 +323,7 @@ Slidevの表示領域は **960×540px**。defaultレイアウトの上下パデ�
 **ターミナルブロックの必須ルール**:
 - **装飾目的の空行（`<br/>`）は禁止** — ボックスアートのpadding行、コマンド間の空行を入れない
 - ターミナル単体は **最大8行**、下部にカード等がある場合は **最大6行**
-- `.terminal` CSS: `padding: 0.7rem 1.2rem`、`font-size: 0.75rem`、`line-height: 1.5`
+- `.terminal` CSS: `padding: 0.7rem 1.2rem`、`font-size: 0.75rem`、`line-height: 1.5`、**`white-space: pre`（必須 — これがないとHTMLの空白結合でインデントが消える）**
 - `::before` は `margin-bottom: 0.5rem`、`padding-bottom: 0.4rem` 以下
 
 **ターミナル + 下部要素の組み合わせ制限**:
